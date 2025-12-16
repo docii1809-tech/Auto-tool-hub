@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free car maintenance tools, OBD guides, reviews & more">
+  <title>AutoToolHub - Free Vehicle Maintenance Tools & Reviews</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100">
+  <!-- Nav -->
+  <nav class="bg-gray-800 p-4 fixed w-full top-0 z-10">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-orange-500">AutoToolHub</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#" class="hover:text-orange-400">Home</a></li>
+        <li><a href="#tools" class="hover:text-orange-400">Tools</a></li>
+        <li><a href="#reviews" class="hover:text-orange-400">Reviews</a></li>
+        <li><a href="#guides" class="hover:text-orange-400">Guides</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="pt-20 pb-32 bg-gradient-to-b from-gray-800 to-gray-900 text-center">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-5xl font-bold mb-6">Free Tools & Expert Reviews for Smarter Car Care</h2>
+      <p class="text-xl mb-8">Maintenance schedules, OBD code explainer, tire guides & more – all free.</p>
+      <a href="#tools" class="bg-orange-600 px-8 py-4 rounded hover:bg-orange-500 text-lg">Explore Tools</a>
+    </div>
+  </section>
+
+  <!-- Tools Grid -->
+  <section id="tools" class="max-w-7xl mx-auto px-4 py-16">
+    <h2 class="text-4xl font-bold text-center mb-12">Interactive Tools</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Add tool cards here -->
+      <div class="bg-gray-800 p-8 rounded-lg shadow-lg text-center">
+        <h3 class="text-2xl mb-4">OBD Code Explainer</h3>
+        <p>Enter a code → get causes & fixes</p>
+        <button class="mt-4 bg-orange-600 px-6 py-2 rounded hover:bg-orange-500">Launch</button>
+      </div>
+      <!-- Repeat for others: Maintenance, Oil Lookup, Fuse Locator (small), etc. -->
+    </div>
+  </section>
+
+  <!-- More sections: Reviews, Products grid with affiliate placeholders, Quote form, Guides teasers -->
+
+  <footer class="bg-gray-800 py-8 text-center">
+    <p>&copy; 2025 AutoToolHub – Affiliate links help keep it free</p>
+  </footer>
+</body>
+</html>
+````markdown name=README.md
+```markdown
+# AutoToolHub
+
+Free open-source vehicle maintenance tools hub – interactive OBD code explainer, maintenance schedules, oil/fluid lookups, PDF report generator, expert reviews, and more. Built with HTML, Tailwind CSS, and vanilla JS.
+
+## What’s included
+- `index.html` — landing page with a hero, navigation, and interactive tools grid placeholder.
+- Tailwind CSS is referenced via CDN for quick styling.
+
+## Next steps
+- Add interactive tools (OBD code explainer, maintenance scheduler, oil lookup).
+- Add build tooling (optional): Node + Tailwind CLI or a static site generator.
+- Add license and expand README with contribution guidelines.
+
+## Development
+Serve the `index.html` file with any static HTTP server (or open in a browser) for a quick preview.
+
+## License
+MIT
